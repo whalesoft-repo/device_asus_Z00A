@@ -17,7 +17,7 @@
 # inherit from common mofd-common
 -include device/asus/mofd-common/BoardConfigCommon.mk
 
-TARGET_RELEASETOOLS_EXTENSIONS := device/asus/Z00A
+TARGET_RELEASETOOLS_EXTENSIONS := device/asus/z008
 
 # Graphics
 COMMON_GLOBAL_CFLAGS += -DDEFAULT_DRM_FB_WIDTH=1080  \
@@ -27,4 +27,4 @@ COMMON_GLOBAL_CFLAGS += -DDEFAULT_DRM_FB_WIDTH=1080  \
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 59261286400
 
 # Use the non-open-source parts, if they're present
--include vendor/asus/Z00A/BoardConfigVendor.mk
+-include vendor/asus/z00a/BoardConfigVendor.mk
